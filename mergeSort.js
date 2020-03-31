@@ -43,9 +43,5 @@ const mergeSort = (arr) => {
   // merge those sorted arrays
   return merge(leftArr, rightArr);
 }
-mergeSort([3,1,2]);
 
-console.log(mergeSort([4,4,4,2,1,3,2,5,7,1,2]));
-console.log(mergeSort([]));
-console.log(mergeSort([3,1,2]));
-console.log(mergeSort([4,3,1,2]));
+module.exports = mergeSort;
